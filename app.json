@@ -2,7 +2,7 @@
   "expo": {
     "name": "cross-path",
     "slug": "cross-path",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,13 +18,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.crosspath.cross-path"
     },
     "android": {
+      "versionCode": 3,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.gregomeyer.crosspath"
     },
     "web": {
       "favicon": "./assets/favicon.png"
